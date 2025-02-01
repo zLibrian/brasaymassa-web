@@ -8,6 +8,7 @@ import { AppLayout } from './pages/_layouts/app'
 import { AuthLayout } from './pages/_layouts/auth'
 import { Dashbord } from './pages/app/dashboard'
 import { SignIn } from './pages/auth/sign-in'
+import { SignUp } from './pages/auth/sign-up'
 
 export const router = createBrowserRouter(
   createRoutesFromElements(
@@ -16,8 +17,9 @@ export const router = createBrowserRouter(
         <Route path="/" element={<Dashbord />} />
       </Route>
 
-      <Route path="/sign-in" element={<AuthLayout />}>
+      <Route path="/" element={<AuthLayout />}>
         <Route path="/sign-in" element={<SignIn />} />
+        <Route path="/sign-up" element={<SignUp />} />
       </Route>
     </Route>,
   ),
