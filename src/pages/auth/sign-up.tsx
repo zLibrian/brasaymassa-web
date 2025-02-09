@@ -109,7 +109,7 @@ export function SignUp() {
               Finalizar cadastro
             </Button>
             <p className="text-muted-foreground text-center text-sm leading-relaxed font-medium peer-disabled:cursor-not-allowed peer-disabled:opacity-70">
-              Ao contiuar, você concorda com nossos <br />
+              Ao continuar, você concorda com nossos <br />
               <a href="" className="underline underline-offset-4">
                 Termos de Serviço
               </a>{' '}
